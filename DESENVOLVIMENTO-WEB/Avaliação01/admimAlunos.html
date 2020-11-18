@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Alunos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/iconic/css/material-design-iconic-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/animsition/css/animsition.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" style="margin-left: 10%">
+        <span class="login100-form-">
+          <i class="zmdi zmdi-font"></i>
+        </span>
+        Acadêmico
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Aluno
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Notas</a>
+              <a class="dropdown-item" href="#">Curso</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Curso
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Alunos</a>
+              <a class="dropdown-item" href="#">Professores</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Disciplina
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Professor
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Turma
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+
+        <!--CONFIG PARA SAIR SEM O MENU AMBURGUER-->
+        <!-- <div class="btn-group dropleft config-grande" >
+          <button
+            type="button"
+            class="btn dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span class="login10-form-title">
+              <i
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.5a5.5 5.5 0 00-3.096 10.047 9.005 9.005 0 00-5.9 8.18.75.75 0 001.5.045 7.5 7.5 0 0114.993 0 .75.75 0 101.499-.044 9.005 9.005 0 00-5.9-8.181A5.5 5.5 0 0012 2.5zM8 8a4 4 0 118 0 4 4 0 01-8 0z"
+                  ></path></svg
+              ></i>
+            </span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Configurações</a>
+            <a class="dropdown-item" href="#">Perfil</a>
+            <a class="dropdown-item" href="#">Sair</a>
+          </div>
+        </div> -->
+
+        <!-- CONFIG PARA SAIR COM MENU AMBURGUER -->
+        <div class="my-2 my-lg-0 config-pequeno" style="margin-right: 10%">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span class="login10-form-title">
+                <i
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.5a5.5 5.5 0 00-3.096 10.047 9.005 9.005 0 00-5.9 8.18.75.75 0 001.5.045 7.5 7.5 0 0114.993 0 .75.75 0 101.499-.044 9.005 9.005 0 00-5.9-8.181A5.5 5.5 0 0012 2.5zM8 8a4 4 0 118 0 4 4 0 01-8 0z"
+                    ></path></svg
+                ></i>
+              </span>
+            </a>
+            <div
+              rigth
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="#">Configurações</a>
+              <a class="dropdown-item" href="#">Perfil</a>
+              <a class="dropdown-item" href="#">Sair</a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <nav
+      aria-label="breadcrumb"
+      style="width: 80%; margin-left: 10%; margin-top: 20px"
+    >
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Administrar Aluno</li>
+      </ol>
+    </nav>
+    <nav class="navbar navbar-light bg-light" style="margin-left: 10%">
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2" 
+          type="search"
+          placeholder="Pesquisar Aluno"
+          aria-label="Search"
+        />
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+          <img src="/images/icons/search-solid.svg"  width="15"></button
+        ><button class="btn btn-primary type="submit">+</button>
+      </form>
+    </nav>
+
+    <table class="table table-bordered" style="max-width: 1090px; margin-left:10%;">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Matrícula</th>
+          <th scope="col">Data de Nascimento</th>
+          <th scope="col">Email </th>
+          <th scope="col">Opções</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>202009262588</td>
+          <td>25/12/1970</td>
+          <td>mark@outlook.com </td>
+          <td>
+            <a href="#"><img src="/images/icons/edit-solid.svg"  style="margin: 5px;" width="20"></a>
+            <a href="#"><img src="/images/icons/trash-alt-solid.svg" style="margin: 5px;" width="20"></a>
+            <a href="#"><img src="/images/icons/search-solid.svg" style="margin: 5px;" width="20"></a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>201965723478</td>
+          <td>04/05/1995</td>
+          <td>jacob@gmail.com</td>
+          <td>
+            <a href="#"><img src="/images/icons/edit-solid.svg"  style="margin: 5px;" width="20"></a>
+            <a href="#"><img src="/images/icons/trash-alt-solid.svg" style="margin: 5px;" width="20"></a>
+            <a href="#"><img src="/images/icons/search-solid.svg" style="margin: 5px;" width="20"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <nav aria-label="..." style="margin-left:10% ;">
+      <ul class="pagination">
+        <li class="page-item ">
+          <a class="page-link " href="#" tabindex="-1">Anterior</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Próximo</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- ======================================================================= -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

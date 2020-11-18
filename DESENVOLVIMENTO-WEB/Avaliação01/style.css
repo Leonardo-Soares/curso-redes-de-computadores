@@ -1,0 +1,14 @@
+/* PAGINA admimAlunos */
+
+body {
+  background-color: red;
+}
+
+@media (max-width: 991px) {
+  .config-grande {
+    display: none;
+  }
+  .config-pequena {
+    display: block;
+  }
+}
