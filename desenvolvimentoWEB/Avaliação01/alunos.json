@@ -1,0 +1,44 @@
+[
+  {
+    "idAluno": 1,
+    "nome": "Luiz Leão",
+    "matricula": 123456,
+    "dataNascimento": "02/01/1981",
+    "email": "luizleao@estacio.br"
+  },
+  {
+    "idAluno": 2,
+    "nome": "Julio Cezar",
+    "matricula": 789101,
+    "dataNascimento": "27/11/1980",
+    "email": "juliocesar@estacio.br"
+  },
+  {
+    "idAluno": 3,
+    "nome": "Antonio Augusto",
+    "matricula": 121314,
+    "dataNascimento": "04/03/1992",
+    "email": "antonioaugusto@estacio.br"
+  },
+  {
+    "idAluno": 4,
+    "nome": "Joaquim José",
+    "matricula": 151617,
+    "dataNascimento": "01/10/1993",
+    "email": "joaquimjose@estacio.br"
+  },
+  {
+    "idAluno": 5,
+    "nome": "Ana Maria",
+    "matricula": 181920,
+    "dataNascimento": "21/07/1990",
+    "email": "anamaria@estacio.br"
+  },
+  {
+    "idAluno": 6,
+    "nome": "Tereza Joaquina",
+    "matricula": 202122,
+    "dataNascimento": "20/08/1995",
+    "email": "terezajoaquina@estacio.br"
+  }
+]

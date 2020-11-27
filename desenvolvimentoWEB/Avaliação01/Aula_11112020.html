@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+  <style>
+  .erro{
+    color: red;
+    background-color: white;
+  }
+  </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script>
+		// $.get('retorno.html', function(data) {
+    //   	obj = JSON.parse(data);
+    //     console.log(typeof obj);
+    //     console.log('Nome:' + obj.nome);
+    //     console.log('End.:' + obj.logradouro + ', ' + obj.numero);
+    //     console.log('Telefone:' + obj.telefone);
+    //   });
+
+$(document).ready(function (){
+    // Erro: 68765290
+    // $('#btnConsultar').click(function (){
+    //      var cep = $('#cep').val();
+    //       //console.log(cep);
+    //       $.get('https://viacep.com.br/ws/'+cep+'/json/', function (data) {
+    //       //obj = JSON.parse(data);
+    //       obj = data;
+    //       if(obj.erro){
+    //         $('input').val('');
+    //         $('#logradouro').addClass('erro').val('CEP inexistente');
+    //       } else{
+    //         //console.log(typeof obj);
+    //         $('#logradouro').removeClass('erro');
+    //         $('#logradouro').val(obj.logradouro);
+    //         $('#complemento').val(obj.complemento);
+    //         $('#bairro').val(obj.bairro);
+    //         $('#localidade').val(obj.localidade);
+    //         $('#uf').val(obj.uf);
+    //         $('#ibge').val(obj.ibge);
+    //         $('#gia').val(obj.gia);
+    //         $('#ddd').val(obj.ddd);
+    //         $('#siafi').val(obj.siafi);
+    //       }
+    //     });
+    // });
+
+    $('#btnConsultar').click(function (){
+      var texto = $('#texto').val();
+      $.get('retornoLista.html', function(data) {
+        var tabela='<table>'+
+                    '<tr>'+
+                      '<th>Nome</th>'+
+                      '<th>Endereço</th>'+
+                      '<th>Telefone</th>'+
+                    '</tr>';
+      	lista = JSON.parse(data);
+        //console.log(obj);
+
+        $.each(lista, function (index, obj){
+          if(obj.nome.toLowerCase().includes(texto.toLowerCase()) || 
+             obj.logradouro.toLowerCase().includes(texto.toLowerCase()) ||
+             obj.numero.toString().includes(texto) ||
+             obj.telefone.toLowerCase().includes(texto.toLowerCase())){
+            tabela += '<tr>';
+            tabela += '<td>'+obj.nome+'</td>';
+            tabela += '<td>'+obj.logradouro + ', ' + obj.numero+'</td>';
+            tabela += '<td>'+obj.telefone+'</td>';
+            tabela += '</tr>';
+          }
+        });
+
+        tabela += '</table>';
+
+        $('#tabela').html(tabela);
+      });
+    });
+});
+    
+	</script>
+</head>
+<body>
+  <!-- <input type="text" id="cep" name="cep" placeholder="cep" />
+  <button type="button" id="btnConsultar" name="btnConsultar">Consultar</button>
+  <br />
+  <hr />
+  <input type="text" id="logradouro" name="logradouro" placeholder="Logradouro" /><br />
+  <input type="text" id="complemento" name="complemento" placeholder="Complemento" /><br />
+  <input type="text" id="bairro" name="bairro" placeholder="Bairro" /><br />
+  <input type="text" id="localidade" name="localidade" placeholder="Localidade" /><br />
+  <input type="text" id="uf" name="uf" placeholder="UF" /><br />
+  <input type="text" id="ibge" name="ibge" placeholder="IBGE" /><br />
+  <input type="text" id="gia" name="gia" placeholder="GIA" /><br />
+  <input type="text" id="ddd" name="ddd" placeholder="DDD" /><br />
+  <input type="text" id="siafi" name="siafi" placeholder="SIAFI" /><br /> -->
+
+<input type="text" id="texto" name="texto" placeholder="Consultar Pessoa" />
+  <button type="button" id="btnConsultar" name="btnConsultar">Consultar</button>
+  <div id="tabela">
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "codigo": 1,
+    "descricao": "tv smart 50 pol 4k",
+    "preco": 2000
+  },
+  {
+    "codigo": 2,
+    "descricao": "vaso decoracao verde",
+    "preco": 18
+  },
+  {
+    "codigo": 3,
+    "descricao": "camisa masculina tamanho m preto",
+    "preco": 39
+  },
+  {
+    "codigo": 4,
+    "descricao": "carro eletrico infantil",
+    "preco": 180
+  },
+  {
+    "codigo": 5,
+    "descricao": "pen drive 1 petabyte",
+    "preco": 6000
+  }
+]

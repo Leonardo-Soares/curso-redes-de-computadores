@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function (){​​
+
+        $('#btnConsultar').click(function(){​​
+
+        var filtro = $('#filtro').val();
+
+        $("#loading").show();
+
+        $.get('alunos.json', function(data) {​​
+
+        var tabela='<table class="table table-condensed table-striped">'+
+
+        '<tr>'+
+
+          '<th>ID</th>'+
+
+          '<th>Nome</th>'+
+
+          '<th>Matricula</th>'+
+
+          '<th>Data de Nascimento</th>'+
+
+          '<th>E-mail</th>'+
+
+        '</tr>';
+
+        //lista = JSON.parse(data);
+
+        //console.log(data);
+
+
+
+        $.each(data, function (index, obj){​​
+
+        if(filtro == '' || (obj.nome.toLowerCase().includes(filtro.toLowerCase()) ||
+
+          obj.idAluno.toString().includes(filtro) ||
+
+          obj.matricula.toString().includes(filtro) ||
+
+          obj.dataNascimento.includes(filtro) ||
+
+          obj.email.toLowerCase().includes(filtro.toLowerCase()))){​​
+
+          tabela += '<tr>';
+
+          tabela += '<td>'+obj.idAluno+'</td>';
+
+          tabela += '<td>'+obj.nome+'</td>';
+
+          tabela += '<td>'+obj.matricula+'</td>';
+
+          tabela += '<td>'+obj.dataNascimento+'</td>';
+
+          tabela += '<td>'+obj.email+'</td>';
+
+          tabela += '</tr>';
+
+        }​​
+
+        }​​);
+
+        tabela += '</table>';
+
+        $('#tabela').html(tabela);
+
+        $("#loading").hide();
+
+        }​​);
+        }​​);
+
+        }​​);
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-xs-6">
+          <input
+            type="text"
+            id="filtro"
+            name="filtro"
+            class="form-control"
+            placeholder="Texto"
+          />
+        </div>
+
+        <div class="col-md-6 col-xs-6">
+          <button
+            type="button"
+            class="btn btn-success"
+            id="btnConsultar"
+            name="btnConsultar"
+          >
+            Consultar
+          </button>
+        </div>
+      </div>
+
+      <div id="loading" class="alert alert-info" style="display: none">
+        Carregando...
+      </div>
+
+      <div id="tabela"></div>
+    </div>
+  </body>
+</html>
