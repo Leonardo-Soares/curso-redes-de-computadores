@@ -3,9 +3,9 @@
 # 🖥️ | Redes de Computadores
 🏫 | Apresentação dos projetos, atividades e trabalhos desenvolvidos no curso de graduação em Redes de Computadores da Universidade Estácio
 
-## 🎓 | Semestre Atual: 2° Semestre 
+# 🎓 | Semestre Atual: 2° Semestre 
 
-## 📚 | Grade Curricular:
+# 📚 | Grade Curricular:
 
 📌 Língua Portuguesa <br> 
 📌 Redes Programáveis <br>
