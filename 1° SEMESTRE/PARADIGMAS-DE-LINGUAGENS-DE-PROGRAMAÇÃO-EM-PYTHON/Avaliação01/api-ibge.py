@@ -115,7 +115,7 @@ def main ():
   #Verifica Resposta
   verificaResposta(resp)
   
-#Primeira Pergunta 
+#Primeira Pergunta Antes do Loop
 header()
 resp = float(input("\nDigite um ano entre 2002 a 2017 (o valor deve ser do tipo inteiro)\n"))
 verificaResposta(resp)
