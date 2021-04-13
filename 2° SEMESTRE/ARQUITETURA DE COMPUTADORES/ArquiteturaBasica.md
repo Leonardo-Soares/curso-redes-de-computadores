@@ -16,7 +16,7 @@ Este é um {c:red}texto vermelho.{/c}
 
 | A   | B   | Resultado  |
 | --- | --- | :---------:|
-| 0   | 0   | ``` 1```   |
+| 0   | 0   | ```diff - resre @@ text in purple (and bold)@@ ```|
 | 0   | 1   | `0`        |
 | 1   | 0   | `0`        |
 | 1   | 1   | `0`        |
