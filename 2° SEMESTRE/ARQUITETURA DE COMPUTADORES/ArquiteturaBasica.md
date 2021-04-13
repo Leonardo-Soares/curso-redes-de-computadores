@@ -1,25 +1,49 @@
 # Tema: Circuitos Lógicos
 
 # Tipos 
+Este é um {c:red}texto vermelho.{/c}
 
-~~~NOR
+# 1 - NOR
 ### A diferença para a porta lógica OR é o fato de  ela possuir uma NOT em sua saída, ou seja, o resultado será o mesmo invertendo o valor.
 
-| A   | B   | Resultado |
-| --- | --- | --------- |
-| 0   | 0   | 1         |
-| 0   | 1   | 0         |
-| 1   | 0   | 0         |
-| 1   | 1   | 0         |
-~~~
+| A   | B   | Resultado  |
+| --- | --- | :---------:|
+| 0   | 0   | `1`        |
+| 0   | 1   | `0`        |
+| 1   | 0   | `0`        |
+| 1   | 1   | `0`        |
 
-~~~NAND
-Esta é uma linha de código em PHP.
-~~~
+# 2 - NAND
+### A diferença para a porta lógica AND é o fato de ela possuir uma NOT em sua saída, ou seja, o resultado será o mesmo invertendo o valor.
 
-~~~XOR
-Esta é uma linha de código em HTML.
-~~~
+| A   | B   | Resultado  |
+| --- | --- | :---------:|
+| 0   | 0   | `1`        |
+| 0   | 1   | `1`        |
+| 1   | 0   | `1`        |
+| 1   | 1   | `0`        |
 
-~~~~XNOR 
-~~~~
+# 3 - XOR
+### O resultado será positivo quando houver "variações" na tabela verdade
+
+| A   | B   | Resultado  |
+| --- | --- | :---------:|
+| 0   | 0   | `0`        |
+| 0   | 1   | `1`        |
+| 1   | 0   | `1`        |
+| 1   | 1   | `0`        |
+
+# 4 - XNOR 
+### O resultado será positivo quando ouver "afirmações" na tabela verdade
+
+| A   | B   | Resultado  |
+| --- | --- | :---------:|
+| 0   | 0   | `1`        |
+| 0   | 1   | `0`        |
+| 1   | 0   | `0`        |
+| 1   | 1   | `1`        |
+
+
+[Veja detalhes a respeito da tabela verdade](../introducao)
+
+ 
