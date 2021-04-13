@@ -1,5 +1,13 @@
 # Tema: Circuitos Lógicos
 
+```diff
+- resre
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 # Tipos 
 Este é um {c:red}texto vermelho.{/c}
 
@@ -8,7 +16,7 @@ Este é um {c:red}texto vermelho.{/c}
 
 | A   | B   | Resultado  |
 | --- | --- | :---------:|
-| 0   | 0   | `1`        |
+| 0   | 0   | ``` 1```   |
 | 0   | 1   | `0`        |
 | 1   | 0   | `0`        |
 | 1   | 1   | `0`        |
@@ -18,9 +26,9 @@ Este é um {c:red}texto vermelho.{/c}
 
 | A   | B   | Resultado  |
 | --- | --- | :---------:|
-| 0   | 0   | `1`        |
-| 0   | 1   | `1`        |
-| 1   | 0   | `1`        |
+| 0   | 0   | ``` 1```   |
+| 0   | 1   | ``` 1```   |
+| 1   | 0   | ``` 1```   |
 | 1   | 1   | `0`        |
 
 # 3 - XOR
@@ -29,8 +37,8 @@ Este é um {c:red}texto vermelho.{/c}
 | A   | B   | Resultado  |
 | --- | --- | :---------:|
 | 0   | 0   | `0`        |
-| 0   | 1   | `1`        |
-| 1   | 0   | `1`        |
+| 0   | 1   | ``` 1```   |
+| 1   | 0   | ``` 1```   |
 | 1   | 1   | `0`        |
 
 # 4 - XNOR 
@@ -38,10 +46,10 @@ Este é um {c:red}texto vermelho.{/c}
 
 | A   | B   | Resultado  |
 | --- | --- | :---------:|
-| 0   | 0   | `1`        |
+| 0   | 0   | ``` 1```   |
 | 0   | 1   | `0`        |
 | 1   | 0   | `0`        |
-| 1   | 1   | `1`        |
+| 1   | 1   | ``` 1```   |
 
 
 [Veja detalhes a respeito da tabela verdade](../introducao)
