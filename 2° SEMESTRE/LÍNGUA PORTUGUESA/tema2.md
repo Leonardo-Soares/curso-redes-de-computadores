@@ -51,6 +51,43 @@ Algumas características da variedade linguística na Internet são:
 
 # <b>📌 | Módulo 2: Esclarecer o conceito de norma culta e suas implicações no uso da língua portuguesa </b>
 
+É preciso entender o que é a norma culta e qual o objetivo da gramática no aprendizado da língua para, então, respondermos sobre que tipo de língua usar nas diversas situações de comunicação do dia a dia.
 
+### Norma Culta
+Conjunto de estruturas concebidas como corretas, que podem ser usadas tanto para falar quanto para escrever.
 
+### O QUE DEFINE A NORMA CULTA DA LÍNGUA?
 
+De acordo com o professor e linguista Luiz Travaglia (2001, p. 25-26), os argumentos ou as justificativas para o estabelecimento da norma culta são os seguintes:
+- <b>ESTÉTICA: </b> Uso de critérios como elegância, colorido, beleza, finura, expressividade. Rejeição de vícios como a cacofonia, colisão, eco, pleonasmo etc.
+
+- <b>ELITISTAS OU ARISTOCRÁTICOS: </b> Opção pelo uso da língua pertencente à classe de prestígio em detrimento do uso das classes populares.
+
+- <b>POLÍTICOS: </b> Critério de purismo e vernaculidade. Rejeição de estrangeirismo ou qualquer aspecto que “ameace” a identidade ou soberania da nação ou da cultura nacional.
+
+- <b>COMUNICACIONAIS: </b> Critérios relacionados com a facilidade de comunicação e compreensão. As construções e o léxico devem resultar na “expressão do pensamento”.
+
+- <b>HISTÓRICOS: </b> Recorre-se à tradição para critérios de exclusão e permanência de usos da língua.
+
+### GRAMÁTICA NORMATIVA
+Gramática da escola, por meio da qual você aprendeu as principais regras ou normas da língua padrão, principalmente da modalidade escrita.
+
+# CONSIDERAÇÕES FINAIS
+Como temos visto, a gramática normativa está mais voltada para a variedade escrita da língua e se ocupa com a manutenção de regras consideradas próprias da língua culta ou de prestígio.
+
+Há, sem dúvida, uma tradição em se prestigiar a língua escrita. Possivelmente por ter características mais conservadoras, transformar-se mais lentamente e estar sob a proteção da ortografia.
+
+A escrita manifesta-se sempre em descompasso com as transformações da fala, cuja dinâmica do uso lhe traz alterações contínuas, naturais e bem mais velozes. Mas, como você aprendeu aqui, tanto a escrita quanto a fala de uma língua apresentam variações e mudam com o tempo e com os inúmeros estímulos que recebem.
+
+Estudar a língua portuguesa levando em conta o fenômeno da variação linguística e o entendimento do que vêm a ser a norma culta e a gramática normativa ajudará, certamente, você a se apropriar cada vez mais dos recursos da língua para um uso adequado às diversas situações comunicativas.
+
+# REFERÊNCIAS
+BAGNO, M. A língua de Eulália: novela sociolinguística. São Paulo: Contexto, 2005.
+
+BECHARA, E. 3 questões sobre língua portuguesa. In: Folha de S. Paulo. São Paulo, 2 jul. 2000. Mais!, p. 3
+
+COSERIU, E. Lições de linguística geral. Rio de Janeiro: Ao livro técnico, 1980.
+
+SALDANHA, L. C. D. Bibliotecas imaginárias e o livro eletrônico: possiblidades do texto no ciberespaço. In: Revista Philologus, Rio de Janeiro, v. 21, p. 26-37, 2001.
+
+TRAVAGLIA, L. C. Gramática e interação: uma proposta para o ensino de gramática. 9. ed. rev. São Paulo: Cortez, 2003.
