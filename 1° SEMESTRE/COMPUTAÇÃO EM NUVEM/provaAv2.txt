@@ -1,0 +1,29 @@
+01) B OK
+
+02) C OK
+
+03) B OK
+
+04) E OK
+ 
+05) E OK
+
+06) B OK
+
+07) C OK
+
+08) E OK
+
+09) O funcionario pode instalar aplicativo para acessar os
+computadores de forma remota e realizar as atualizações 
+necessárias para utilizar os serviços.
+
+10) Resiliência é a capacidade do indivíduo lidar com
+problemas, superar desafios e adaptar-se de acordo com
+a situação.Em tecnologia para descrever a capacidade 
+de sistemas complexos de se auto organizarem frente 
+à situações difíceis.Nuvens mais sofisticadas, como 
+a da AWS, nos ajudaram muito neste aspecto, permitindo 
+o uso de várias zonas de disponibilidade e mecanismos 
+mais confiáveis de verificação.
+

@@ -1,0 +1,59 @@
+As empresas migram para nuvem devido a agilidade
+
+3 fatores que influenciam a agilidade
+aumento da  velociada 
+facilidade de experimentação 
+cultura de inovação
+
+
+Numev da AWS é Elastica 
+Alocação de recursos comoutacionais para outras atividades
+ou desligamento caso não seja necessários 
+
+Pode aumentar, diminuir por quanto tempo for necessario
+
+Possui uma infrantestrutura global (menos latência e maior alcance)
+
+COnfiabilidade: capacidade de um sistema se recuperar
+de falhas de infraestrutura ou serviço
+
+Confidencialidade
+Confiabilidade 
+
+Segurança de dados AWS
+	Audiória de segurança 
+	Você mesmo fiscaliza
+	Segurança física e virtual
+
+
+INTERFACE DE GERENCIAMENTO AWS
+Console de gerenciamento da aws
+	possui uma interfaxe fácil
+	de usar que oferece suporte
+	à maioria dos amazon web services
+
+
+
+===========================================
+MODULO 3
+AMAZON EC2 
+	conceito ?
+	
+	Instâncias do amazon EC2
+	Pagamento conforme o uso
+	Ampla seleção de hadware/software
+	Hospedagem global
+
+DEMOSTRAÇÃO E CONFIGURAÇÃO de uma
+instância do EC2
+
+
+INTRODUÇÃO AO ELASTIC BLOCK STORE
+-> Conceito
+-> Volumes ABS
+-> IMG
+-> Mudança de armazenamento e capacidade
+tecnologica do mesmo (HD, SSD) 
+
+
+

@@ -1,0 +1,19 @@
+Conceito inicias
+
+operadores lógicos
+
+variavel
+
+tipos de dados (não sei tudo) int float complex -> (operações matemáticas complexas)
+
+booleanos
+
+listas até o loop
+
+função
+
+operadores aritimetricos
+
+tuplas não vai cair
+
+numeros não vai cair 
